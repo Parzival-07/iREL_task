@@ -1,0 +1,140 @@
+{
+  "video_language": "Hindi-English (Hinglish)",
+  "video_topic": "Difference between Displacement and Distance",
+  "standardization_map": [
+    {
+      "colloquial": "Integral VDT",
+      "standard_term": "Integration of Velocity Function"
+    },
+    {
+      "colloquial": "velocity is 0 and the sine is changing",
+      "standard_term": "Point of Zero Velocity / Direction Change"
+    }
+  ],
+  "teaching_sequence": [
+    "Second Equation of Motion (s = ut + 0.5at^2)",
+    "Displacement",
+    "Distance",
+    "Velocity Function",
+    "Calculating Displacement using Integration",
+    "Definite Integral",
+    "Power Rule of Integration",
+    "Point of Zero Velocity / Direction Change",
+    "Properties of Distance",
+    "Calculating Total Distance with Changing Velocity Direction"
+  ],
+  "concepts": [
+    {
+      "id": "c1",
+      "name": "Displacement",
+      "description": "The shortest distance from the initial to the final position of an object, including direction.",
+      "difficulty": "beginner",
+      "type": "definition"
+    },
+    {
+      "id": "c2",
+      "name": "Distance",
+      "description": "The total path length covered by an object irrespective of direction.",
+      "difficulty": "beginner",
+      "type": "definition"
+    },
+    {
+      "id": "c3",
+      "name": "Second Equation of Motion (s = ut + 0.5at^2)",
+      "description": "An equation relating initial velocity, time, acceleration, and displacement for an object under constant acceleration, used here to prompt the discussion on 's' as displacement vs. distance.",
+      "difficulty": "beginner",
+      "type": "definition"
+    },
+    {
+      "id": "c4",
+      "name": "Velocity Function",
+      "description": "A mathematical expression that describes an object's velocity as a function of time.",
+      "difficulty": "intermediate",
+      "type": "definition"
+    },
+    {
+      "id": "c5",
+      "name": "Calculating Displacement using Integration",
+      "description": "Determining the net displacement of an object by integrating its velocity function with respect to time over a given interval.",
+      "difficulty": "intermediate",
+      "type": "technique"
+    },
+    {
+      "id": "c6",
+      "name": "Definite Integral",
+      "description": "An integral with upper and lower limits of integration, used to find the exact value of a quantity over a specified interval.",
+      "difficulty": "intermediate",
+      "type": "definition"
+    },
+    {
+      "id": "c7",
+      "name": "Power Rule of Integration",
+      "description": "A fundamental rule for integrating power functions, stating that the integral of x^n is (x^(n+1))/(n+1) + C.",
+      "difficulty": "beginner",
+      "type": "theorem"
+    },
+    {
+      "id": "c8",
+      "name": "Point of Zero Velocity / Direction Change",
+      "description": "An instant in time when an object's velocity momentarily becomes zero, often indicating a reversal in its direction of motion.",
+      "difficulty": "intermediate",
+      "type": "definition"
+    },
+    {
+      "id": "c9",
+      "name": "Properties of Distance",
+      "description": "Characteristics of distance, such as being a scalar quantity, always non-negative, and representing the total path length.",
+      "difficulty": "beginner",
+      "type": "definition"
+    },
+    {
+      "id": "c10",
+      "name": "Calculating Total Distance with Changing Velocity Direction",
+      "description": "A technique to find total distance by splitting the integration interval at points where velocity is zero, and summing the absolute values of displacement over each sub-interval.",
+      "difficulty": "intermediate",
+      "type": "technique"
+    }
+  ],
+  "prerequisites": [
+    {
+      "source_id": "c4",
+      "target_id": "c5",
+      "rationale": "To calculate displacement using integration, a velocity function is strictly necessary as the input for integration.",
+      "strength": "strong"
+    },
+    {
+      "source_id": "c5",
+      "target_id": "c6",
+      "rationale": "Calculating displacement over a specific time interval inherently requires the application of a definite integral.",
+      "strength": "strong"
+    },
+    {
+      "source_id": "c5",
+      "target_id": "c7",
+      "rationale": "The specific integration example demonstrated in the lecture for velocity functions relies on the power rule of integration.",
+      "strength": "strong"
+    },
+    {
+      "source_id": "c8",
+      "target_id": "c10",
+      "rationale": "Identifying the points where velocity is zero is a critical first step for correctly applying the technique of calculating total distance when direction changes.",
+      "strength": "strong"
+    },
+    {
+      "source_id": "c9",
+      "target_id": "c10",
+      "rationale": "Understanding the properties of distance (e.g., non-negativity) provides the rationale for the specific steps in the total distance calculation technique.",
+      "strength": "strong"
+    },
+    {
+      "source_id": "c5",
+      "target_id": "c10",
+      "rationale": "The technique for calculating total distance builds upon the fundamental method of calculating displacement using integration, extending it with considerations for direction changes.",
+      "strength": "strong"
+    }
+  ],
+  "video_id": "video4",
+  "video_title": "Difference Between Diaplacement and Distance || IIT JEE  MAINS AND ADVANCE CONCEPT ||",
+  "video_url": "https://www.youtube.com/watch?v=4IkIGhuhuxo&list=PLF_7kfnwLFCHamOEHrFDSVoI6wszQQheq&index=7",
+  "duration": "7:30"
+}

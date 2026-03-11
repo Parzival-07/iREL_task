@@ -1,0 +1,12 @@
+jupyter
+numpy
+scipy
+imageio-ffmpeg
+torch
+openai-whisper
+yt-dlp
+networkx
+pyvis
+google-generativeai
+ipython
+python-dotenv

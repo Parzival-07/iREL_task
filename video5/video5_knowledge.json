@@ -1,0 +1,244 @@
+{
+  "video_language": "Hindi-English (Hinglish)",
+  "video_topic": "Topological Sort Graph Algorithm",
+  "standardization_map": [
+    {
+      "colloquial": "combative exams",
+      "standard_term": "Competitive Exams"
+    },
+    {
+      "colloquial": "placements' point of view",
+      "standard_term": "Placement Perspective"
+    },
+    {
+      "colloquial": "how to work in this action",
+      "standard_term": "how this algorithm works"
+    },
+    {
+      "colloquial": "direct a-cyclic graph",
+      "standard_term": "Directed Acyclic Graph (DAG)"
+    },
+    {
+      "colloquial": "cycle is made",
+      "standard_term": "cycle is formed"
+    },
+    {
+      "colloquial": "dead end",
+      "standard_term": "Sink Node"
+    },
+    {
+      "colloquial": "un-visted door",
+      "standard_term": "Unvisited Node"
+    },
+    {
+      "colloquial": "visted door",
+      "standard_term": "Visited Node"
+    },
+    {
+      "colloquial": "last in-first out",
+      "standard_term": "Last-In, First-Out (LIFO)"
+    },
+    {
+      "colloquial": "order of v plus e",
+      "standard_term": "O(|V|+|E|)"
+    },
+    {
+      "colloquial": "graph-based algorithm",
+      "standard_term": "Graph-based Algorithm"
+    },
+    {
+      "colloquial": "graph data structure",
+      "standard_term": "Graph Data Structure"
+    }
+  ],
+  "teaching_sequence": [
+    "Topological Sort",
+    "Graph Data Structure",
+    "Graph Algorithms",
+    "Breadth-First Search (BFS)",
+    "Depth-First Search (DFS)",
+    "Vertex",
+    "Directed Edge",
+    "Directed Acyclic Graph (DAG)",
+    "Cycle (in a graph)",
+    "Time Complexity",
+    "Uniqueness of Topological Sort",
+    "Khan's Algorithm",
+    "Graph Traversal State: Visited/Unvisited",
+    "Stack Data Structure",
+    "Space Complexity"
+  ],
+  "concepts": [
+    {
+      "id": "c1",
+      "name": "Topological Sort",
+      "description": "A linear ordering of graph vertices such that for every directed edge from vertex u to v, u comes before v in the ordering.",
+      "difficulty": "intermediate",
+      "type": "algorithm"
+    },
+    {
+      "id": "c2",
+      "name": "Graph Data Structure",
+      "description": "A non-linear data structure consisting of nodes (vertices) and edges, representing relationships between them.",
+      "difficulty": "beginner",
+      "type": "data_structure"
+    },
+    {
+      "id": "c3",
+      "name": "Vertex",
+      "description": "A fundamental unit or node in a graph.",
+      "difficulty": "beginner",
+      "type": "definition"
+    },
+    {
+      "id": "c4",
+      "name": "Directed Edge",
+      "description": "An edge in a graph that has a specific direction, indicating a one-way relationship from a source vertex to a target vertex.",
+      "difficulty": "beginner",
+      "type": "definition"
+    },
+    {
+      "id": "c5",
+      "name": "Directed Acyclic Graph (DAG)",
+      "description": "A directed graph that contains no cycles, meaning there is no way to start at a vertex and follow a sequence of directed edges back to that same vertex.",
+      "difficulty": "intermediate",
+      "type": "definition"
+    },
+    {
+      "id": "c6",
+      "name": "Cycle (in a graph)",
+      "description": "A path in a graph that starts and ends at the same vertex, where no edge is repeated.",
+      "difficulty": "beginner",
+      "type": "definition"
+    },
+    {
+      "id": "c7",
+      "name": "Time Complexity",
+      "description": "A measure of the amount of time taken by an algorithm to run as a function of the length of its input.",
+      "difficulty": "beginner",
+      "type": "technique"
+    },
+    {
+      "id": "c8",
+      "name": "Space Complexity",
+      "description": "A measure of the amount of memory an algorithm requires to run as a function of the length of its input.",
+      "difficulty": "beginner",
+      "type": "technique"
+    },
+    {
+      "id": "c9",
+      "name": "Uniqueness of Topological Sort",
+      "description": "A property stating that a topological sort is not necessarily unique for a given DAG; multiple valid orderings can exist.",
+      "difficulty": "intermediate",
+      "type": "property"
+    },
+    {
+      "id": "c10",
+      "name": "Depth-First Search (DFS)",
+      "description": "A graph traversal algorithm that explores as far as possible along each branch before backtracking.",
+      "difficulty": "intermediate",
+      "type": "algorithm"
+    },
+    {
+      "id": "c11",
+      "name": "Stack Data Structure",
+      "description": "A linear data structure that follows the Last-In, First-Out (LIFO) principle, where the last element added is the first one to be removed.",
+      "difficulty": "beginner",
+      "type": "data_structure"
+    },
+    {
+      "id": "c12",
+      "name": "Graph Traversal State: Visited/Unvisited",
+      "description": "The state of a node in a graph during traversal, indicating whether it has already been processed (visited) or not (unvisited).",
+      "difficulty": "beginner",
+      "type": "technique"
+    },
+    {
+      "id": "c13",
+      "name": "Khan's Algorithm",
+      "description": "An algorithm for topological sorting that uses a queue and counts in-degrees of nodes.",
+      "difficulty": "intermediate",
+      "type": "algorithm"
+    },
+    {
+      "id": "c14",
+      "name": "Breadth-First Search (BFS)",
+      "description": "A graph traversal algorithm that explores all the neighbor nodes at the present depth level before moving on to nodes at the next depth level.",
+      "difficulty": "intermediate",
+      "type": "algorithm"
+    },
+    {
+      "id": "c15",
+      "name": "Graph Algorithms",
+      "description": "A set of algorithms designed to solve problems on graphs, such as finding paths, traversals, or orderings.",
+      "difficulty": "beginner",
+      "type": "definition"
+    }
+  ],
+  "prerequisites": [
+    {
+      "source_id": "c2",
+      "target_id": "c1",
+      "rationale": "Understanding what a graph is, its components, and its representation is fundamental to grasping any graph algorithm like Topological Sort.",
+      "strength": "strong"
+    },
+    {
+      "source_id": "c3",
+      "target_id": "c1",
+      "rationale": "Vertices are the fundamental units that are being ordered in a topological sort.",
+      "strength": "strong"
+    },
+    {
+      "source_id": "c4",
+      "target_id": "c1",
+      "rationale": "Topological Sort's definition explicitly relies on the presence and direction of edges to define ordering constraints.",
+      "strength": "strong"
+    },
+    {
+      "source_id": "c5",
+      "target_id": "c1",
+      "rationale": "Topological Sort is uniquely applicable to Directed Acyclic Graphs; understanding DAGs is a strict prerequisite.",
+      "strength": "strong"
+    },
+    {
+      "source_id": "c6",
+      "target_id": "c5",
+      "rationale": "Understanding what a cycle is in a graph is necessary to comprehend the 'acyclic' property of a DAG.",
+      "strength": "strong"
+    },
+    {
+      "source_id": "c10",
+      "target_id": "c1",
+      "rationale": "DFS is the primary algorithm demonstrated in the lecture for computing a topological sort.",
+      "strength": "strong"
+    },
+    {
+      "source_id": "c11",
+      "target_id": "c10",
+      "rationale": "A stack is a key data structure used in the DFS-based approach for topological sorting to store nodes in the correct order.",
+      "strength": "strong"
+    },
+    {
+      "source_id": "c12",
+      "target_id": "c10",
+      "rationale": "The DFS algorithm relies on marking nodes as visited or unvisited to avoid infinite loops and process each node once.",
+      "strength": "strong"
+    },
+    {
+      "source_id": "c7",
+      "target_id": "c1",
+      "rationale": "Understanding time complexity is important for evaluating the efficiency of the Topological Sort algorithm.",
+      "strength": "weak"
+    },
+    {
+      "source_id": "c8",
+      "target_id": "c1",
+      "rationale": "Understanding space complexity is important for evaluating the memory usage of the Topological Sort algorithm.",
+      "strength": "weak"
+    }
+  ],
+  "video_id": "video5",
+  "video_title": "L- 6.8:Topological Sorting with examples | Topological Sorting using DFS",
+  "video_url": "https://www.youtube.com/watch?v=3tkcfvCNtM8",
+  "duration": "11:33"
+}

@@ -1,0 +1,172 @@
+{
+  "video_language": "Hindi-English (Hinglish)",
+  "video_topic": "Trees",
+  "standardization_map": [
+    {
+      "colloquial": "link list",
+      "standard_term": "Linked List"
+    },
+    {
+      "colloquial": "Q",
+      "standard_term": "Queue"
+    }
+  ],
+  "teaching_sequence": [
+    "Tree",
+    "Data Structure",
+    "Linked List",
+    "Stack",
+    "Queue",
+    "Linear Data Structure",
+    "Hierarchical Data Structure",
+    "Non-linear Data Structure",
+    "Array",
+    "Graph",
+    "Shortest Path Problem"
+  ],
+  "concepts": [
+    {
+      "id": "c1",
+      "name": "Tree",
+      "description": "A non-linear data structure that simulates a hierarchical structure, typically used to represent data with parent-child relationships.",
+      "difficulty": "intermediate",
+      "type": "data_structure"
+    },
+    {
+      "id": "c2",
+      "name": "Data Structure",
+      "description": "A particular way of organizing data in a computer's memory so that it can be used and managed efficiently.",
+      "difficulty": "beginner",
+      "type": "definition"
+    },
+    {
+      "id": "c3",
+      "name": "Linked List",
+      "description": "A linear data structure consisting of a sequence of nodes, where each node contains data and a reference to the next node in the sequence.",
+      "difficulty": "beginner",
+      "type": "data_structure"
+    },
+    {
+      "id": "c4",
+      "name": "Stack",
+      "description": "A linear data structure that follows the Last-In-First-Out (LIFO) principle, where the last element added is the first one to be removed.",
+      "difficulty": "beginner",
+      "type": "data_structure"
+    },
+    {
+      "id": "c5",
+      "name": "Queue",
+      "description": "A linear data structure that follows the First-In-First-Out (FIFO) principle, where the first element added is the first one to be removed.",
+      "difficulty": "beginner",
+      "type": "data_structure"
+    },
+    {
+      "id": "c6",
+      "name": "Linear Data Structure",
+      "description": "A data structure where elements are arranged sequentially and each element has a unique predecessor and successor, except for the first and last elements.",
+      "difficulty": "beginner",
+      "type": "definition"
+    },
+    {
+      "id": "c7",
+      "name": "Hierarchical Data Structure",
+      "description": "A data structure where data is organized in a tree-like structure with parent-child relationships, typically starting from a root node.",
+      "difficulty": "intermediate",
+      "type": "definition"
+    },
+    {
+      "id": "c8",
+      "name": "Non-linear Data Structure",
+      "description": "A data structure where elements are not arranged sequentially, allowing an element to be connected to multiple other elements in various ways.",
+      "difficulty": "beginner",
+      "type": "definition"
+    },
+    {
+      "id": "c9",
+      "name": "Array",
+      "description": "A linear data structure that stores a fixed-size, sequential collection of elements of the same data type, accessed by an index.",
+      "difficulty": "beginner",
+      "type": "data_structure"
+    },
+    {
+      "id": "c10",
+      "name": "Graph",
+      "description": "A non-linear data structure consisting of a finite set of vertices (nodes) and a set of edges (links) connecting pairs of vertices.",
+      "difficulty": "intermediate",
+      "type": "data_structure"
+    },
+    {
+      "id": "c11",
+      "name": "Shortest Path Problem",
+      "description": "A fundamental problem in graph theory that involves finding a path between two vertices in a graph such that the sum of the weights of its constituent edges is minimized.",
+      "difficulty": "intermediate",
+      "type": "technique"
+    }
+  ],
+  "prerequisites": [
+    {
+      "source_id": "c2",
+      "target_id": "c6",
+      "rationale": "Understanding the general concept of Data Structure is strictly necessary before classifying specific types like Linear Data Structures.",
+      "strength": "strong"
+    },
+    {
+      "source_id": "c2",
+      "target_id": "c8",
+      "rationale": "Understanding the general concept of Data Structure is strictly necessary before classifying specific types like Non-linear Data Structures.",
+      "strength": "strong"
+    },
+    {
+      "source_id": "c6",
+      "target_id": "c3",
+      "rationale": "Linked List is presented as a specific example of a Linear Data Structure.",
+      "strength": "strong"
+    },
+    {
+      "source_id": "c6",
+      "target_id": "c4",
+      "rationale": "Stack is presented as a specific example of a Linear Data Structure.",
+      "strength": "strong"
+    },
+    {
+      "source_id": "c6",
+      "target_id": "c5",
+      "rationale": "Queue is presented as a specific example of a Linear Data Structure.",
+      "strength": "strong"
+    },
+    {
+      "source_id": "c6",
+      "target_id": "c9",
+      "rationale": "Array is presented as a specific example of a Linear Data Structure.",
+      "strength": "strong"
+    },
+    {
+      "source_id": "c7",
+      "target_id": "c1",
+      "rationale": "The concept of Hierarchical Data Structure is introduced as a defining characteristic of a Tree.",
+      "strength": "strong"
+    },
+    {
+      "source_id": "c8",
+      "target_id": "c1",
+      "rationale": "Tree is classified as a type of Non-linear Data Structure.",
+      "strength": "strong"
+    },
+    {
+      "source_id": "c8",
+      "target_id": "c10",
+      "rationale": "Graph is classified as a type of Non-linear Data Structure.",
+      "strength": "strong"
+    },
+    {
+      "source_id": "c10",
+      "target_id": "c11",
+      "rationale": "The Shortest Path Problem is explicitly discussed in the context of Graph data structures.",
+      "strength": "strong"
+    }
+  ],
+  "video_id": "video2",
+  "video_title": "Tree data structure with Code | Data Structure & Algorithm For Beginners in Hindi | Hello World",
+  "video_url": "https://www.youtube.com/watch?v=nbgtyBKn2tI&list=PLzjZaW71kMwQ-JABTOTypnpRk1BnD2Nx4",
+  "duration": "8:46"
+}

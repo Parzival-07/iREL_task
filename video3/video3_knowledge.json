@@ -1,0 +1,332 @@
+{
+  "video_language": "Hindi-English (Hinglish)",
+  "video_topic": "Nutrition in Human Beings",
+  "standardization_map": [
+    {
+      "colloquial": "elementri ke naal",
+      "standard_term": "Alimentary Canal"
+    },
+    {
+      "colloquial": "associated glance",
+      "standard_term": "Associated Glands"
+    },
+    {
+      "colloquial": "ma'ud",
+      "standard_term": "Mouth"
+    },
+    {
+      "colloquial": "bakl cavity",
+      "standard_term": "Buccal Cavity"
+    },
+    {
+      "colloquial": "isu fegis / food pipe",
+      "standard_term": "Oesophagus / Food Pipe"
+    },
+    {
+      "colloquial": "enes",
+      "standard_term": "Anus"
+    },
+    {
+      "colloquial": "Salivri gland",
+      "standard_term": "Salivary Glands"
+    },
+    {
+      "colloquial": "penkriya",
+      "standard_term": "Pancreas"
+    },
+    {
+      "colloquial": "kompleks shugar",
+      "standard_term": "Complex Sugars"
+    },
+    {
+      "colloquial": "gawaastriik joos",
+      "standard_term": "Gastric Juice"
+    },
+    {
+      "colloquial": "bail juice",
+      "standard_term": "Bile Juice"
+    },
+    {
+      "colloquial": "gaol bladhaar",
+      "standard_term": "Gallbladder"
+    },
+    {
+      "colloquial": "emal spikasih of fat",
+      "standard_term": "Emulsification of Fats"
+    },
+    {
+      "colloquial": "pankriya tik juice",
+      "standard_term": "Pancreatic Juice"
+    },
+    {
+      "colloquial": "ab zob hoo jata hai",
+      "standard_term": "Absorption of Food"
+    },
+    {
+      "colloquial": "vil hai",
+      "standard_term": "Villi"
+    },
+    {
+      "colloquial": "undigested un ebsock poot ko body se bahaa dete hai",
+      "standard_term": "Egestion"
+    },
+    {
+      "colloquial": "harbi more sanimals",
+      "standard_term": "Herbivores"
+    },
+    {
+      "colloquial": "kari more sanimals",
+      "standard_term": "Carnivores"
+    },
+    {
+      "colloquial": "silulos",
+      "standard_term": "Cellulose"
+    }
+  ],
+  "teaching_sequence": [
+    "Nutrition in Human Beings",
+    "Heterotrophic Nutrition",
+    "Digestive System",
+    "Alimentary Canal",
+    "Associated Glands",
+    "Ingestion",
+    "Chemical Digestion",
+    "Oesophagus",
+    "Peristalsis",
+    "Stomach",
+    "Emulsification of Fats",
+    "Small Intestine",
+    "Absorption of Food",
+    "Large Intestine",
+    "Water Absorption",
+    "Egestion"
+  ],
+  "concepts": [
+    {
+      "id": "c1",
+      "name": "Nutrition in Human Beings",
+      "description": "The comprehensive process by which humans obtain and utilize food for energy, growth, and repair.",
+      "difficulty": "beginner",
+      "type": "definition"
+    },
+    {
+      "id": "c2",
+      "name": "Heterotrophic Nutrition",
+      "description": "A mode of nutrition where organisms cannot synthesize their own food and rely on other organisms for sustenance.",
+      "difficulty": "beginner",
+      "type": "definition"
+    },
+    {
+      "id": "c3",
+      "name": "Digestive System",
+      "description": "The organ system responsible for breaking down food into absorbable molecules and eliminating waste.",
+      "difficulty": "beginner",
+      "type": "definition"
+    },
+    {
+      "id": "c4",
+      "name": "Alimentary Canal",
+      "description": "The continuous tube from mouth to anus through which food passes and is processed.",
+      "difficulty": "beginner",
+      "type": "definition"
+    },
+    {
+      "id": "c5",
+      "name": "Associated Glands",
+      "description": "Glands (e.g., salivary, liver, pancreas) that produce and secrete digestive juices and enzymes into the alimentary canal.",
+      "difficulty": "beginner",
+      "type": "definition"
+    },
+    {
+      "id": "c6",
+      "name": "Ingestion",
+      "description": "The act of taking food into the body, typically through the mouth.",
+      "difficulty": "beginner",
+      "type": "definition"
+    },
+    {
+      "id": "c7",
+      "name": "Peristalsis",
+      "description": "The rhythmic, wave-like contractions of involuntary muscles in the walls of the alimentary canal that push food along.",
+      "difficulty": "intermediate",
+      "type": "technique"
+    },
+    {
+      "id": "c8",
+      "name": "Oesophagus",
+      "description": "A muscular tube that connects the pharynx to the stomach, through which food is transported by peristalsis.",
+      "difficulty": "beginner",
+      "type": "definition"
+    },
+    {
+      "id": "c9",
+      "name": "Stomach",
+      "description": "A J-shaped muscular organ that stores food, mixes it with gastric juices, and initiates protein digestion.",
+      "difficulty": "beginner",
+      "type": "definition"
+    },
+    {
+      "id": "c10",
+      "name": "Small Intestine",
+      "description": "The primary site for the final digestion and absorption of nutrients into the bloodstream.",
+      "difficulty": "beginner",
+      "type": "definition"
+    },
+    {
+      "id": "c11",
+      "name": "Large Intestine",
+      "description": "The final section of the alimentary canal, primarily responsible for water absorption and compaction of undigested waste.",
+      "difficulty": "beginner",
+      "type": "definition"
+    },
+    {
+      "id": "c12",
+      "name": "Chemical Digestion",
+      "description": "The enzymatic breakdown of complex food molecules into simpler, absorbable forms.",
+      "difficulty": "intermediate",
+      "type": "technique"
+    },
+    {
+      "id": "c13",
+      "name": "Emulsification of Fats",
+      "description": "The physical process of breaking down large fat globules into smaller droplets by bile, increasing surface area for lipase action.",
+      "difficulty": "intermediate",
+      "type": "technique"
+    },
+    {
+      "id": "c14",
+      "name": "Absorption of Food",
+      "description": "The process by which digested nutrients pass from the lumen of the small intestine into the blood or lymph.",
+      "difficulty": "intermediate",
+      "type": "technique"
+    },
+    {
+      "id": "c15",
+      "name": "Egestion",
+      "description": "The elimination of undigested and unabsorbed food material from the body as feces.",
+      "difficulty": "beginner",
+      "type": "definition"
+    },
+    {
+      "id": "c16",
+      "name": "Water Absorption",
+      "description": "The reabsorption of water from undigested food material, primarily occurring in the large intestine.",
+      "difficulty": "intermediate",
+      "type": "technique"
+    }
+  ],
+  "prerequisites": [
+    {
+      "source_id": "c1",
+      "target_id": "c2",
+      "rationale": "Understanding Nutrition in Human Beings is foundational to understanding its specific types like Heterotrophic Nutrition.",
+      "strength": "strong"
+    },
+    {
+      "source_id": "c2",
+      "target_id": "c3",
+      "rationale": "Understanding Heterotrophic Nutrition, which involves consuming external food, necessitates understanding the Digestive System that processes it.",
+      "strength": "strong"
+    },
+    {
+      "source_id": "c3",
+      "target_id": "c4",
+      "rationale": "The Digestive System is fundamentally composed of the Alimentary Canal, making knowledge of the former necessary for the latter's context.",
+      "strength": "strong"
+    },
+    {
+      "source_id": "c3",
+      "target_id": "c5",
+      "rationale": "The Digestive System includes the Associated Glands, making knowledge of the former necessary for the latter's context.",
+      "strength": "strong"
+    },
+    {
+      "source_id": "c4",
+      "target_id": "c6",
+      "rationale": "Ingestion is the initial step and entry point into the Alimentary Canal.",
+      "strength": "strong"
+    },
+    {
+      "source_id": "c6",
+      "target_id": "c12",
+      "rationale": "Chemical Digestion, though starting in the mouth, is a process that follows the physical act of Ingestion.",
+      "strength": "strong"
+    },
+    {
+      "source_id": "c4",
+      "target_id": "c8",
+      "rationale": "The Oesophagus is a distinct part of the Alimentary Canal, so understanding the overall canal is a prerequisite.",
+      "strength": "strong"
+    },
+    {
+      "source_id": "c8",
+      "target_id": "c7",
+      "rationale": "Peristalsis is the specific mechanism by which food moves through the Oesophagus.",
+      "strength": "strong"
+    },
+    {
+      "source_id": "c8",
+      "target_id": "c9",
+      "rationale": "Food travels from the Oesophagus directly into the Stomach.",
+      "strength": "strong"
+    },
+    {
+      "source_id": "c9",
+      "target_id": "c12",
+      "rationale": "The Stomach is a major site where specific Chemical Digestion (of proteins) occurs.",
+      "strength": "strong"
+    },
+    {
+      "source_id": "c9",
+      "target_id": "c10",
+      "rationale": "Food moves from the Stomach to the Small Intestine for further processing.",
+      "strength": "strong"
+    },
+    {
+      "source_id": "c10",
+      "target_id": "c13",
+      "rationale": "Emulsification of Fats is a preparatory step for fat digestion that occurs in the Small Intestine.",
+      "strength": "strong"
+    },
+    {
+      "source_id": "c10",
+      "target_id": "c12",
+      "rationale": "The Small Intestine is the primary site for the final stages of Chemical Digestion.",
+      "strength": "strong"
+    },
+    {
+      "source_id": "c12",
+      "target_id": "c14",
+      "rationale": "Food must undergo Chemical Digestion into simpler molecules before it can be absorbed.",
+      "strength": "strong"
+    },
+    {
+      "source_id": "c10",
+      "target_id": "c14",
+      "rationale": "The Small Intestine is the main anatomical site where Absorption of Food takes place.",
+      "strength": "strong"
+    },
+    {
+      "source_id": "c14",
+      "target_id": "c11",
+      "rationale": "Any undigested or unabsorbed material moves from the site of Absorption of Food to the Large Intestine.",
+      "strength": "strong"
+    },
+    {
+      "source_id": "c11",
+      "target_id": "c16",
+      "rationale": "The Large Intestine is the primary site for Water Absorption from the remaining waste material.",
+      "strength": "strong"
+    },
+    {
+      "source_id": "c16",
+      "target_id": "c15",
+      "rationale": "After Water Absorption, the compacted waste is prepared for Egestion.",
+      "strength": "strong"
+    }
+  ],
+  "video_id": "video3",
+  "video_title": "NUTRITION IN HUMAN BEINGS: Complete Topic in 10 Minutes | Class 10th Board Exam ⚡",
+  "video_url": "https://www.youtube.com/watch?v=VF8ORgF1OBo",
+  "duration": "10:48"
+}
