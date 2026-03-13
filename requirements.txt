@@ -3,7 +3,7 @@ numpy
 scipy
 imageio-ffmpeg
 torch
-openai-whisper
+faster-whisper
 yt-dlp
 networkx
 pyvis

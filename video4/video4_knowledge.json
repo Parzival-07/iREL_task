@@ -3,133 +3,163 @@
   "video_topic": "Difference between Displacement and Distance",
   "standardization_map": [
     {
-      "colloquial": "Integral VDT",
-      "standard_term": "Integration of Velocity Function"
+      "colloquial": "बडी समपल सी बात",
+      "standard_term": "fundamental concept"
     },
     {
-      "colloquial": "velocity is 0 and the sine is changing",
-      "standard_term": "Point of Zero Velocity / Direction Change"
+      "colloquial": "S क्या है",
+      "standard_term": "Meaning of S"
+    },
+    {
+      "colloquial": "दिस्टन्स",
+      "standard_term": "Distance"
+    },
+    {
+      "colloquial": "दिस्ट्ट्ट्ट्ट्ट्में",
+      "standard_term": "Displacement"
+    },
+    {
+      "colloquial": "क्यो नहीं है उनका",
+      "standard_term": "Why is it not"
     }
   ],
   "teaching_sequence": [
-    "Second Equation of Motion (s = ut + 0.5at^2)",
-    "Displacement",
+    "Second Equation of Motion (S = UT + 0.5AT^2)",
     "Distance",
-    "Velocity Function",
-    "Calculating Displacement using Integration",
-    "Definite Integral",
-    "Power Rule of Integration",
-    "Point of Zero Velocity / Direction Change",
-    "Properties of Distance",
-    "Calculating Total Distance with Changing Velocity Direction"
+    "Displacement",
+    "Initial Velocity",
+    "Time",
+    "Acceleration",
+    "Scalar Quantity",
+    "Vector Quantity",
+    "Path Dependence",
+    "Shortest Path"
   ],
   "concepts": [
     {
       "id": "c1",
-      "name": "Displacement",
-      "description": "The shortest distance from the initial to the final position of an object, including direction.",
+      "name": "Second Equation of Motion (S = UT + 0.5AT^2)",
+      "description": "A kinematic equation describing the displacement of an object under constant acceleration over time.",
       "difficulty": "beginner",
-      "type": "definition"
+      "type": "theorem"
     },
     {
       "id": "c2",
-      "name": "Distance",
-      "description": "The total path length covered by an object irrespective of direction.",
+      "name": "Displacement",
+      "description": "The shortest distance between an object's initial and final positions, including direction.",
       "difficulty": "beginner",
       "type": "definition"
     },
     {
       "id": "c3",
-      "name": "Second Equation of Motion (s = ut + 0.5at^2)",
-      "description": "An equation relating initial velocity, time, acceleration, and displacement for an object under constant acceleration, used here to prompt the discussion on 's' as displacement vs. distance.",
+      "name": "Distance",
+      "description": "The total length of the path covered by an object between two points, without regard to direction.",
       "difficulty": "beginner",
       "type": "definition"
     },
     {
       "id": "c4",
-      "name": "Velocity Function",
-      "description": "A mathematical expression that describes an object's velocity as a function of time.",
-      "difficulty": "intermediate",
+      "name": "Scalar Quantity",
+      "description": "A physical quantity that has magnitude but no direction.",
+      "difficulty": "beginner",
       "type": "definition"
     },
     {
       "id": "c5",
-      "name": "Calculating Displacement using Integration",
-      "description": "Determining the net displacement of an object by integrating its velocity function with respect to time over a given interval.",
-      "difficulty": "intermediate",
-      "type": "technique"
+      "name": "Vector Quantity",
+      "description": "A physical quantity that has both magnitude and direction.",
+      "difficulty": "beginner",
+      "type": "definition"
     },
     {
       "id": "c6",
-      "name": "Definite Integral",
-      "description": "An integral with upper and lower limits of integration, used to find the exact value of a quantity over a specified interval.",
-      "difficulty": "intermediate",
+      "name": "Initial Velocity",
+      "description": "The velocity of an object at the beginning of its motion or at the start of a specific time interval.",
+      "difficulty": "beginner",
       "type": "definition"
     },
     {
       "id": "c7",
-      "name": "Power Rule of Integration",
-      "description": "A fundamental rule for integrating power functions, stating that the integral of x^n is (x^(n+1))/(n+1) + C.",
+      "name": "Time",
+      "description": "A fundamental quantity that measures the duration of events or intervals.",
       "difficulty": "beginner",
-      "type": "theorem"
+      "type": "definition"
     },
     {
       "id": "c8",
-      "name": "Point of Zero Velocity / Direction Change",
-      "description": "An instant in time when an object's velocity momentarily becomes zero, often indicating a reversal in its direction of motion.",
-      "difficulty": "intermediate",
+      "name": "Acceleration",
+      "description": "The rate at which an object's velocity changes with respect to time.",
+      "difficulty": "beginner",
       "type": "definition"
     },
     {
       "id": "c9",
-      "name": "Properties of Distance",
-      "description": "Characteristics of distance, such as being a scalar quantity, always non-negative, and representing the total path length.",
+      "name": "Path Dependence",
+      "description": "The characteristic of a quantity where its value is determined by the specific path taken between two points.",
       "difficulty": "beginner",
       "type": "definition"
     },
     {
       "id": "c10",
-      "name": "Calculating Total Distance with Changing Velocity Direction",
-      "description": "A technique to find total distance by splitting the integration interval at points where velocity is zero, and summing the absolute values of displacement over each sub-interval.",
-      "difficulty": "intermediate",
-      "type": "technique"
+      "name": "Shortest Path",
+      "description": "The most direct route between two points, typically a straight line.",
+      "difficulty": "beginner",
+      "type": "definition"
     }
   ],
   "prerequisites": [
     {
-      "source_id": "c4",
-      "target_id": "c5",
-      "rationale": "To calculate displacement using integration, a velocity function is strictly necessary as the input for integration.",
+      "source_id": "c6",
+      "target_id": "c1",
+      "rationale": "Understanding the components like Initial Velocity is strictly necessary to understand the Second Equation of Motion.",
       "strength": "strong"
     },
     {
-      "source_id": "c5",
-      "target_id": "c6",
-      "rationale": "Calculating displacement over a specific time interval inherently requires the application of a definite integral.",
-      "strength": "strong"
-    },
-    {
-      "source_id": "c5",
-      "target_id": "c7",
-      "rationale": "The specific integration example demonstrated in the lecture for velocity functions relies on the power rule of integration.",
+      "source_id": "c7",
+      "target_id": "c1",
+      "rationale": "Understanding the components like Time is strictly necessary to understand the Second Equation of Motion.",
       "strength": "strong"
     },
     {
       "source_id": "c8",
-      "target_id": "c10",
-      "rationale": "Identifying the points where velocity is zero is a critical first step for correctly applying the technique of calculating total distance when direction changes.",
+      "target_id": "c1",
+      "rationale": "Understanding the components like Acceleration is strictly necessary to understand the Second Equation of Motion.",
       "strength": "strong"
     },
     {
-      "source_id": "c9",
-      "target_id": "c10",
-      "rationale": "Understanding the properties of distance (e.g., non-negativity) provides the rationale for the specific steps in the total distance calculation technique.",
+      "source_id": "c3",
+      "target_id": "c1",
+      "rationale": "To understand the debate of 'S' representing Distance in the equation, one must first grasp the concept of Distance.",
+      "strength": "strong"
+    },
+    {
+      "source_id": "c2",
+      "target_id": "c1",
+      "rationale": "To understand the debate of 'S' representing Displacement in the equation, one must first grasp the concept of Displacement.",
+      "strength": "strong"
+    },
+    {
+      "source_id": "c4",
+      "target_id": "c3",
+      "rationale": "Understanding a scalar quantity is strictly necessary to fully grasp the nature of Distance as a scalar.",
       "strength": "strong"
     },
     {
       "source_id": "c5",
-      "target_id": "c10",
-      "rationale": "The technique for calculating total distance builds upon the fundamental method of calculating displacement using integration, extending it with considerations for direction changes.",
+      "target_id": "c2",
+      "rationale": "Understanding a vector quantity is strictly necessary to fully grasp the nature of Displacement as a vector.",
+      "strength": "strong"
+    },
+    {
+      "source_id": "c9",
+      "target_id": "c3",
+      "rationale": "Understanding Path Dependence is strictly necessary to differentiate and fully grasp the concept of Distance.",
+      "strength": "strong"
+    },
+    {
+      "source_id": "c10",
+      "target_id": "c2",
+      "rationale": "Understanding the concept of Shortest Path is strictly necessary to define and fully grasp Displacement.",
       "strength": "strong"
     }
   ],

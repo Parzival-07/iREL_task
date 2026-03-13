@@ -3,238 +3,306 @@
   "video_topic": "Topological Sort Graph Algorithm",
   "standardization_map": [
     {
-      "colloquial": "combative exams",
-      "standard_term": "Competitive Exams"
+      "colloquial": "यू वी मलग वी से वी की तरफ जारी है",
+      "standard_term": "Directed Edge from U to V"
     },
     {
-      "colloquial": "placements' point of view",
-      "standard_term": "Placement Perspective"
+      "colloquial": "अडर लिखेंगे",
+      "standard_term": "Topological Order"
     },
     {
-      "colloquial": "how to work in this action",
-      "standard_term": "how this algorithm works"
+      "colloquial": "सोटिंग लिखेंगे",
+      "standard_term": "Topological Sort"
     },
     {
-      "colloquial": "direct a-cyclic graph",
+      "colloquial": "यू हमेशा वी से पहले आना चाहीए",
+      "standard_term": "U must precede V"
+    },
+    {
+      "colloquial": "देरेक्ट एज साएकलिग ग्राफ",
       "standard_term": "Directed Acyclic Graph (DAG)"
     },
     {
-      "colloquial": "cycle is made",
-      "standard_term": "cycle is formed"
+      "colloquial": "बीना किसी डेक्चन के",
+      "standard_term": "Undirected"
     },
     {
-      "colloquial": "dead end",
-      "standard_term": "Sink Node"
+      "colloquial": "साएक्लिक गराफ",
+      "standard_term": "Cyclic Graph"
     },
     {
-      "colloquial": "un-visted door",
-      "standard_term": "Unvisited Node"
+      "colloquial": "v जो है वो dependent है u पे",
+      "standard_term": "V is dependent on U"
     },
     {
-      "colloquial": "visted door",
-      "standard_term": "Visited Node"
+      "colloquial": "तास्क की वात कर लो",
+      "standard_term": "Task"
     },
     {
-      "colloquial": "last in-first out",
-      "standard_term": "Last-In, First-Out (LIFO)"
+      "colloquial": "लिनियर ताईम कमप्लेक्सिती अलगोरिदम",
+      "standard_term": "Linear Time Complexity Algorithm"
     },
     {
-      "colloquial": "order of v plus e",
-      "standard_term": "O(|V|+|E|)"
+      "colloquial": "अडर वी प्लस एई",
+      "standard_term": "O(V + E)"
     },
     {
-      "colloquial": "graph-based algorithm",
-      "standard_term": "Graph-based Algorithm"
+      "colloquial": "दीएपस",
+      "standard_term": "DFS (Depth First Search)"
     },
     {
-      "colloquial": "graph data structure",
-      "standard_term": "Graph Data Structure"
+      "colloquial": "बीएफएस",
+      "standard_term": "BFS (Breadth First Search)"
+    },
+    {
+      "colloquial": "स्टैक",
+      "standard_term": "Stack"
+    },
+    {
+      "colloquial": "अन विस्त्रिट डोर पडे है",
+      "standard_term": "Unvisited Nodes"
+    },
+    {
+      "colloquial": "विस्त्रिट होगम",
+      "standard_term": "Visited"
+    },
+    {
+      "colloquial": "च्टैक से एलिमेट्स को पाब कर लो",
+      "standard_term": "Pop elements from stack"
+    },
+    {
+      "colloquial": "नोजद़स",
+      "standard_term": "Nodes"
+    },
+    {
+      "colloquial": "वरटी",
+      "standard_term": "Vertex"
+    },
+    {
+      "colloquial": "बैकट्रेक",
+      "standard_term": "Backtrack"
     }
   ],
   "teaching_sequence": [
-    "Topological Sort",
-    "Graph Data Structure",
-    "Graph Algorithms",
-    "Breadth-First Search (BFS)",
-    "Depth-First Search (DFS)",
-    "Vertex",
+    "Graph",
+    "Node/Vertex",
+    "Edge",
     "Directed Edge",
+    "Dependency",
+    "Topological Sort",
+    "Topological Order",
     "Directed Acyclic Graph (DAG)",
-    "Cycle (in a graph)",
+    "Cyclic Graph",
     "Time Complexity",
-    "Uniqueness of Topological Sort",
-    "Khan's Algorithm",
-    "Graph Traversal State: Visited/Unvisited",
-    "Stack Data Structure",
-    "Space Complexity"
+    "Linear Time Complexity (V+E)",
+    "DFS (Depth First Search)",
+    "BFS (Breadth First Search)",
+    "Visited/Unvisited Nodes",
+    "Stack"
   ],
   "concepts": [
     {
       "id": "c1",
-      "name": "Topological Sort",
-      "description": "A linear ordering of graph vertices such that for every directed edge from vertex u to v, u comes before v in the ordering.",
-      "difficulty": "intermediate",
-      "type": "algorithm"
-    },
-    {
-      "id": "c2",
-      "name": "Graph Data Structure",
-      "description": "A non-linear data structure consisting of nodes (vertices) and edges, representing relationships between them.",
+      "name": "Graph",
+      "description": "A graph is a non-linear data structure consisting of nodes (vertices) and edges.",
       "difficulty": "beginner",
       "type": "data_structure"
     },
     {
+      "id": "c2",
+      "name": "Node/Vertex",
+      "description": "A node, also known as a vertex, is a fundamental unit from which graphs are formed.",
+      "difficulty": "beginner",
+      "type": "definition"
+    },
+    {
       "id": "c3",
-      "name": "Vertex",
-      "description": "A fundamental unit or node in a graph.",
+      "name": "Edge",
+      "description": "An edge is a connection between two nodes (vertices) in a graph.",
       "difficulty": "beginner",
       "type": "definition"
     },
     {
       "id": "c4",
       "name": "Directed Edge",
-      "description": "An edge in a graph that has a specific direction, indicating a one-way relationship from a source vertex to a target vertex.",
+      "description": "A directed edge is an edge with a specific direction, indicating a one-way relationship from a source node to a destination node.",
       "difficulty": "beginner",
       "type": "definition"
     },
     {
       "id": "c5",
-      "name": "Directed Acyclic Graph (DAG)",
-      "description": "A directed graph that contains no cycles, meaning there is no way to start at a vertex and follow a sequence of directed edges back to that same vertex.",
-      "difficulty": "intermediate",
+      "name": "Dependency",
+      "description": "In a directed graph, dependency means one node's completion or processing is required before another node can be processed, typically indicated by a directed edge.",
+      "difficulty": "beginner",
       "type": "definition"
     },
     {
       "id": "c6",
-      "name": "Cycle (in a graph)",
-      "description": "A path in a graph that starts and ends at the same vertex, where no edge is repeated.",
-      "difficulty": "beginner",
-      "type": "definition"
-    },
-    {
-      "id": "c7",
-      "name": "Time Complexity",
-      "description": "A measure of the amount of time taken by an algorithm to run as a function of the length of its input.",
-      "difficulty": "beginner",
-      "type": "technique"
-    },
-    {
-      "id": "c8",
-      "name": "Space Complexity",
-      "description": "A measure of the amount of memory an algorithm requires to run as a function of the length of its input.",
-      "difficulty": "beginner",
-      "type": "technique"
-    },
-    {
-      "id": "c9",
-      "name": "Uniqueness of Topological Sort",
-      "description": "A property stating that a topological sort is not necessarily unique for a given DAG; multiple valid orderings can exist.",
-      "difficulty": "intermediate",
-      "type": "property"
-    },
-    {
-      "id": "c10",
-      "name": "Depth-First Search (DFS)",
-      "description": "A graph traversal algorithm that explores as far as possible along each branch before backtracking.",
+      "name": "Topological Sort",
+      "description": "Topological sort is an algorithm for ordering the vertices of a directed acyclic graph (DAG) such that for every directed edge U to V, U comes before V in the ordering.",
       "difficulty": "intermediate",
       "type": "algorithm"
     },
     {
-      "id": "c11",
-      "name": "Stack Data Structure",
-      "description": "A linear data structure that follows the Last-In, First-Out (LIFO) principle, where the last element added is the first one to be removed.",
-      "difficulty": "beginner",
+      "id": "c7",
+      "name": "Topological Order",
+      "description": "The topological order is the linear ordering of vertices produced by a topological sort, respecting all directed dependencies.",
+      "difficulty": "intermediate",
+      "type": "definition"
+    },
+    {
+      "id": "c8",
+      "name": "Directed Acyclic Graph (DAG)",
+      "description": "A Directed Acyclic Graph is a directed graph that contains no cycles, making it suitable for topological sorting.",
+      "difficulty": "intermediate",
       "type": "data_structure"
     },
     {
-      "id": "c12",
-      "name": "Graph Traversal State: Visited/Unvisited",
-      "description": "The state of a node in a graph during traversal, indicating whether it has already been processed (visited) or not (unvisited).",
+      "id": "c9",
+      "name": "Cyclic Graph",
+      "description": "A cyclic graph is a graph that contains at least one cycle, meaning there is a path from a vertex back to itself.",
+      "difficulty": "intermediate",
+      "type": "data_structure"
+    },
+    {
+      "id": "c10",
+      "name": "Time Complexity",
+      "description": "Time complexity is a measure of the amount of time required by an algorithm to run as a function of the length of the input.",
       "difficulty": "beginner",
-      "type": "technique"
+      "type": "definition"
+    },
+    {
+      "id": "c11",
+      "name": "Linear Time Complexity (V+E)",
+      "description": "Linear time complexity O(V+E) indicates that the algorithm's runtime grows proportionally to the sum of the number of vertices (V) and edges (E) in the graph.",
+      "difficulty": "intermediate",
+      "type": "definition"
+    },
+    {
+      "id": "c12",
+      "name": "DFS (Depth First Search)",
+      "description": "Depth First Search is a graph traversal algorithm that explores as far as possible along each branch before backtracking.",
+      "difficulty": "intermediate",
+      "type": "algorithm"
     },
     {
       "id": "c13",
-      "name": "Khan's Algorithm",
-      "description": "An algorithm for topological sorting that uses a queue and counts in-degrees of nodes.",
+      "name": "BFS (Breadth First Search)",
+      "description": "Breadth First Search is a graph traversal algorithm that explores all the neighbor nodes at the present depth before moving on to the nodes at the next depth level.",
       "difficulty": "intermediate",
       "type": "algorithm"
     },
     {
       "id": "c14",
-      "name": "Breadth-First Search (BFS)",
-      "description": "A graph traversal algorithm that explores all the neighbor nodes at the present depth level before moving on to nodes at the next depth level.",
-      "difficulty": "intermediate",
-      "type": "algorithm"
+      "name": "Visited/Unvisited Nodes",
+      "description": "Nodes in a graph can be marked as visited or unvisited during traversal to prevent redundant processing and infinite loops.",
+      "difficulty": "beginner",
+      "type": "technique"
     },
     {
       "id": "c15",
-      "name": "Graph Algorithms",
-      "description": "A set of algorithms designed to solve problems on graphs, such as finding paths, traversals, or orderings.",
+      "name": "Stack",
+      "description": "A stack is a linear data structure that follows the Last-In, First-Out (LIFO) principle, commonly used in DFS implementations.",
       "difficulty": "beginner",
-      "type": "definition"
+      "type": "data_structure"
     }
   ],
   "prerequisites": [
     {
-      "source_id": "c2",
-      "target_id": "c1",
-      "rationale": "Understanding what a graph is, its components, and its representation is fundamental to grasping any graph algorithm like Topological Sort.",
-      "strength": "strong"
+      "source_id": "c1",
+      "target_id": "c2",
+      "rationale": "Nodes are fundamental components of a graph.",
+      "strength": "weak"
+    },
+    {
+      "source_id": "c1",
+      "target_id": "c3",
+      "rationale": "Edges are fundamental components of a graph.",
+      "strength": "weak"
     },
     {
       "source_id": "c3",
-      "target_id": "c1",
-      "rationale": "Vertices are the fundamental units that are being ordered in a topological sort.",
+      "target_id": "c4",
+      "rationale": "A directed edge is a specific type of edge.",
       "strength": "strong"
     },
     {
       "source_id": "c4",
-      "target_id": "c1",
-      "rationale": "Topological Sort's definition explicitly relies on the presence and direction of edges to define ordering constraints.",
+      "target_id": "c5",
+      "rationale": "Dependency is defined by the direction of edges between nodes.",
       "strength": "strong"
     },
     {
       "source_id": "c5",
-      "target_id": "c1",
-      "rationale": "Topological Sort is uniquely applicable to Directed Acyclic Graphs; understanding DAGs is a strict prerequisite.",
+      "target_id": "c6",
+      "rationale": "Topological sort is fundamentally about ordering based on dependencies.",
       "strength": "strong"
     },
     {
       "source_id": "c6",
-      "target_id": "c5",
-      "rationale": "Understanding what a cycle is in a graph is necessary to comprehend the 'acyclic' property of a DAG.",
+      "target_id": "c7",
+      "rationale": "Topological order is the result of performing a topological sort.",
       "strength": "strong"
+    },
+    {
+      "source_id": "c4",
+      "target_id": "c8",
+      "rationale": "A DAG is a specific type of directed graph.",
+      "strength": "strong"
+    },
+    {
+      "source_id": "c8",
+      "target_id": "c6",
+      "rationale": "Topological sort can only be applied to a Directed Acyclic Graph (DAG).",
+      "strength": "strong"
+    },
+    {
+      "source_id": "c8",
+      "target_id": "c9",
+      "rationale": "Cyclic graphs are introduced as a contrast to DAGs where topological sort is not possible.",
+      "strength": "weak"
     },
     {
       "source_id": "c10",
-      "target_id": "c1",
-      "rationale": "DFS is the primary algorithm demonstrated in the lecture for computing a topological sort.",
+      "target_id": "c11",
+      "rationale": "Linear time complexity is a specific instance of general time complexity.",
       "strength": "strong"
     },
     {
-      "source_id": "c11",
-      "target_id": "c10",
-      "rationale": "A stack is a key data structure used in the DFS-based approach for topological sorting to store nodes in the correct order.",
+      "source_id": "c6",
+      "target_id": "c11",
+      "rationale": "O(V+E) is the typical time complexity of topological sort algorithms.",
+      "strength": "strong"
+    },
+    {
+      "source_id": "c6",
+      "target_id": "c12",
+      "rationale": "DFS is presented as one method to implement topological sort.",
+      "strength": "strong"
+    },
+    {
+      "source_id": "c6",
+      "target_id": "c13",
+      "rationale": "BFS is presented as another method to implement topological sort.",
+      "strength": "weak"
+    },
+    {
+      "source_id": "c12",
+      "target_id": "c14",
+      "rationale": "Stacks are a common data structure used in the implementation of DFS-based topological sort.",
       "strength": "strong"
     },
     {
       "source_id": "c12",
-      "target_id": "c10",
-      "rationale": "The DFS algorithm relies on marking nodes as visited or unvisited to avoid infinite loops and process each node once.",
+      "target_id": "c14",
+      "rationale": "Tracking visited and unvisited nodes is crucial for any graph traversal algorithm like DFS.",
       "strength": "strong"
     },
     {
-      "source_id": "c7",
-      "target_id": "c1",
-      "rationale": "Understanding time complexity is important for evaluating the efficiency of the Topological Sort algorithm.",
-      "strength": "weak"
-    },
-    {
-      "source_id": "c8",
-      "target_id": "c1",
-      "rationale": "Understanding space complexity is important for evaluating the memory usage of the Topological Sort algorithm.",
-      "strength": "weak"
+      "source_id": "c13",
+      "target_id": "c14",
+      "rationale": "Tracking visited and unvisited nodes is crucial for any graph traversal algorithm like BFS.",
+      "strength": "strong"
     }
   ],
   "video_id": "video5",

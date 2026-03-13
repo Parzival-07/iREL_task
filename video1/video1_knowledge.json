@@ -3,331 +3,339 @@
   "video_topic": "Huffman Coding / Data Compression",
   "standardization_map": [
     {
-      "colloquial": "half-man coding",
-      "standard_term": "Huffman Coding"
-    },
-    {
-      "colloquial": "greedy technique",
-      "standard_term": "Greedy Algorithm"
-    },
-    {
-      "colloquial": "data encode",
-      "standard_term": "Data Encoding"
-    },
-    {
-      "colloquial": "data compression",
-      "standard_term": "Data Compression"
-    },
-    {
-      "colloquial": "0 and 1",
+      "colloquial": "बाईनी में लिपरजेंग करना",
       "standard_term": "Binary Representation"
     },
     {
-      "colloquial": "computer system is in the digital form",
-      "standard_term": "Digital Data Representation"
+      "colloquial": "कितनी बिट्स को लुज करते है",
+      "standard_term": "Number of Bits Used"
     },
     {
-      "colloquial": "communicate",
-      "standard_term": "Data Transmission"
+      "colloquial": "मैंसीम्रेंज",
+      "standard_term": "Maximum Range"
     },
     {
-      "colloquial": "send someone",
-      "standard_term": "Data Transmission"
+      "colloquial": "अल्फाबेत",
+      "standard_term": "Alphabet / Characters"
     },
     {
-      "colloquial": "sky encoding",
-      "standard_term": "ASCII Encoding"
+      "colloquial": "3 दिएप निप रहा हैं",
+      "standard_term": "Assigning 3 bits"
     },
     {
-      "colloquial": "range that we have is 0 to 127",
-      "standard_term": "ASCII Character Set"
+      "colloquial": "सब से मींट्याग़िम्ट कोंसे है",
+      "standard_term": "Minimum Frequency"
     },
     {
-      "colloquial": "7 bits",
-      "standard_term": "Number of Bits"
-    },
-    {
-      "colloquial": "1 character",
-      "standard_term": "Character"
-    },
-    {
-      "colloquial": "100 characters",
-      "standard_term": "Message Length"
-    },
-    {
-      "colloquial": "3-3 bits",
-      "standard_term": "Fixed-Length Encoding"
-    },
-    {
-      "colloquial": "identify each alpha unique identity",
-      "standard_term": "Unique Codes"
-    },
-    {
-      "colloquial": "minimum way",
-      "standard_term": "Optimal Encoding"
-    },
-    {
-      "colloquial": "all the frequencies that you have given",
+      "colloquial": "इं दो लोगी फ्रिक्वैसी भी अप ने यह लिए दी",
       "standard_term": "Character Frequencies"
     },
     {
-      "colloquial": "minimum variables",
-      "standard_term": "Nodes with Smallest Frequencies"
+      "colloquial": "मीनिमम दो उटाए एग",
+      "standard_term": "Selecting Minimum Frequency Nodes"
     },
     {
-      "colloquial": "combine these two",
+      "colloquial": "दोनो को लाग लिए प्रटर्टर्स कित नहीं आगे, अब वेसली फ्रिक्वाई जाएगे",
+      "standard_term": "Merged Node Frequency Calculation"
+    },
+    {
+      "colloquial": "मरज कर दिया",
       "standard_term": "Merge Nodes"
     },
     {
-      "colloquial": "smaller element on the left side keep larger or bigger elements on the right side",
-      "standard_term": "Huffman Tree Construction Rules"
-    },
-    {
-      "colloquial": "half-man tree or we can write it as a graph",
-      "standard_term": "Huffman Tree"
-    },
-    {
-      "colloquial": "left-hand side That is, the left tree Let it be zero Let it be one number The left edge is zero Let it be one number Zero One",
-      "standard_term": "Assigning Binary Codes to Edges"
-    },
-    {
-      "colloquial": "root note",
+      "colloquial": "tree mein jo upper wala node hai",
       "standard_term": "Root Node"
     },
     {
-      "colloquial": "coding use here?",
-      "standard_term": "Huffman Codes"
+      "colloquial": "लेफ को जीरो रागे को वानी सरीगे से रिपरजेंट की आए",
+      "standard_term": "Huffman Code Assignment (0 for left, 1 for right)"
     },
     {
-      "colloquial": "all the codes here are different",
-      "standard_term": "Prefix Codes"
+      "colloquial": "पात का मेंक भी आए भान जीरो रीक",
+      "standard_term": "Path to Leaf Node"
     },
     {
-      "colloquial": "what is the second thing you have to do? To represent one How much bit is a bit? How much value is that bit? Zero But how much is a bit? So, 50 into 1",
-      "standard_term": "Total Bits Calculation"
+      "colloquial": "कितने बिट लगी तु",
+      "standard_term": "Number of bits required"
     },
     {
-      "colloquial": "Average bits Required to represent Each character",
-      "standard_term": "Average Code Length"
+      "colloquial": "तोतल करक्तरस",
+      "standard_term": "Total Characters"
     },
     {
-      "colloquial": "benefit kya mila abagar aap deta ko qumpres kar rahon",
-      "standard_term": "Benefits of Huffman Coding"
+      "colloquial": "सात भिटस पर करक्टर",
+      "standard_term": "7 Bits per Character"
     },
     {
-      "colloquial": "TRANSMITION TINE",
-      "standard_term": "Data Transmission Time"
+      "colloquial": "मेसीज गजा साइज जिवाइद बाईद",
+      "standard_term": "Message Size Calculation"
     },
     {
-      "colloquial": "MASSAGE DIVAIR BYED BYED BAND",
-      "standard_term": "Data Transmission Time Formula"
-    },
-    {
-      "colloquial": "BAND",
-      "standard_term": "Bandwidth"
+      "colloquial": "बाईट",
+      "standard_term": "Byte"
     }
   ],
   "teaching_sequence": [
-    "Huffman Coding",
-    "Greedy Algorithm",
-    "Data Compression",
-    "Data Encoding",
     "Binary Representation",
+    "Number of Bits Used",
     "Fixed-Length Encoding",
-    "Character Frequencies",
+    "Characters / Alphabet",
+    "Frequency of Characters",
+    "Minimum Frequency",
+    "Selecting Minimum Frequency Nodes",
+    "Merge Nodes",
+    "Merged Node Frequency Calculation",
     "Huffman Tree Construction",
-    "Huffman Tree",
-    "Assigning Binary Codes to Edges",
-    "Huffman Codes",
-    "Prefix Codes",
-    "Total Bits for Encoded Message",
-    "Average Code Length",
-    "Benefits of Huffman Coding"
+    "Huffman Code Assignment (0 for left, 1 for right)",
+    "Path to Leaf Node",
+    "Code Words",
+    "Number of bits required for a character",
+    "Total bits for message",
+    "Data Compression",
+    "Message Size Calculation (Bytes)"
   ],
   "concepts": [
     {
       "id": "c1",
-      "name": "Huffman Coding",
-      "description": "An optimal data compression algorithm that uses a greedy approach to assign variable-length codes to input characters based on their frequencies.",
-      "difficulty": "intermediate",
-      "type": "algorithm"
-    },
-    {
-      "id": "c2",
-      "name": "Greedy Algorithm",
-      "description": "An algorithmic paradigm that makes the locally optimal choice at each stage with the hope of finding a global optimum.",
-      "difficulty": "beginner",
-      "type": "technique"
-    },
-    {
-      "id": "c3",
-      "name": "Data Compression",
-      "description": "The process of encoding information using fewer bits than the original representation to reduce storage space or transmission bandwidth.",
+      "name": "Binary Representation",
+      "description": "The method of representing data using only two symbols, typically 0 and 1.",
       "difficulty": "beginner",
       "type": "definition"
     },
     {
-      "id": "c4",
-      "name": "Data Encoding",
-      "description": "The process of converting data from one format to another, typically for transmission, storage, or security.",
+      "id": "c2",
+      "name": "Number of Bits Used",
+      "description": "The count of binary digits (bits) required to represent a specific value or range of values.",
       "difficulty": "beginner",
+      "type": "definition"
+    },
+    {
+      "id": "c3",
+      "name": "Fixed-Length Encoding",
+      "description": "A coding scheme where every character or symbol is represented by a binary code of the same predefined length.",
+      "difficulty": "intermediate",
       "type": "technique"
     },
     {
+      "id": "c4",
+      "name": "Characters / Alphabet",
+      "description": "The set of individual symbols or letters that constitute the data to be encoded.",
+      "difficulty": "beginner",
+      "type": "definition"
+    },
+    {
       "id": "c5",
-      "name": "Binary Representation",
-      "description": "Representing data using only two symbols, typically 0 and 1, which is fundamental to how computers store and process information.",
+      "name": "Frequency of Characters",
+      "description": "The count of how many times each character appears within a given piece of text or data.",
       "difficulty": "beginner",
       "type": "definition"
     },
     {
       "id": "c6",
-      "name": "Fixed-Length Encoding",
-      "description": "A coding scheme where every character or symbol is represented by a code of the same predefined bit length.",
+      "name": "Minimum Frequency",
+      "description": "Identifying the character or node that has the lowest count of occurrences.",
       "difficulty": "beginner",
       "type": "technique"
     },
     {
       "id": "c7",
-      "name": "Character Frequencies",
-      "description": "The count of occurrences for each unique character within a given message or data set, used as input for Huffman Coding.",
-      "difficulty": "beginner",
-      "type": "definition"
+      "name": "Selecting Minimum Frequency Nodes",
+      "description": "The process of choosing the two nodes (characters or sub-trees) with the smallest frequencies for the next step in Huffman tree construction.",
+      "difficulty": "intermediate",
+      "type": "algorithm"
     },
     {
       "id": "c8",
-      "name": "Huffman Tree Construction",
-      "description": "The step-by-step process of building a binary tree by repeatedly merging the two nodes with the smallest frequencies until a single root node remains.",
+      "name": "Merge Nodes",
+      "description": "Combining two selected nodes to form a new parent node in a hierarchical tree structure.",
       "difficulty": "intermediate",
       "type": "algorithm"
     },
     {
       "id": "c9",
-      "name": "Huffman Tree",
-      "description": "A specially constructed binary tree where leaf nodes represent characters, internal nodes represent merged frequencies, and paths from the root to leaves define Huffman codes.",
+      "name": "Merged Node Frequency Calculation",
+      "description": "Summing the frequencies of the two merged child nodes to determine the frequency of their newly created parent node.",
+      "difficulty": "intermediate",
+      "type": "algorithm"
+    },
+    {
+      "id": "c10",
+      "name": "Huffman Tree Construction",
+      "description": "The iterative process of building a binary tree by repeatedly merging the two nodes with the lowest frequencies until a single root node remains.",
+      "difficulty": "intermediate",
+      "type": "algorithm"
+    },
+    {
+      "id": "c11",
+      "name": "Root Node",
+      "description": "The single topmost node in a Huffman tree, which represents the total frequency of all characters.",
       "difficulty": "intermediate",
       "type": "data_structure"
     },
     {
-      "id": "c10",
-      "name": "Assigning Binary Codes to Edges",
-      "description": "The process of labeling the left edges of the Huffman tree with '0' and right edges with '1' to derive the unique binary code for each character.",
-      "difficulty": "intermediate",
-      "type": "technique"
-    },
-    {
-      "id": "c11",
-      "name": "Huffman Codes",
-      "description": "Variable-length binary codes generated from a Huffman tree, where more frequent characters receive shorter codes and less frequent ones receive longer codes.",
-      "difficulty": "intermediate",
-      "type": "definition"
-    },
-    {
       "id": "c12",
-      "name": "Prefix Codes",
-      "description": "A type of code where no code word is a prefix of any other code word, ensuring unambiguous decoding, a property of Huffman codes.",
+      "name": "Leaf Nodes",
+      "description": "The terminal nodes in a Huffman tree, each representing an individual character from the alphabet.",
       "difficulty": "intermediate",
-      "type": "definition"
+      "type": "data_structure"
     },
     {
       "id": "c13",
-      "name": "Total Bits for Encoded Message",
-      "description": "The sum of (frequency of each character × length of its Huffman code), representing the total size of the compressed message in bits.",
+      "name": "Huffman Code Assignment (0 for left, 1 for right)",
+      "description": "The technique of assigning binary digits (0 to left branches and 1 to right branches) while traversing down the Huffman tree to form codewords.",
       "difficulty": "intermediate",
-      "type": "technique"
+      "type": "algorithm"
     },
     {
       "id": "c14",
-      "name": "Average Code Length",
-      "description": "A metric calculated by dividing the total bits for the encoded message by the total number of characters, indicating the average number of bits per character.",
+      "name": "Path to Leaf Node",
+      "description": "The unique sequence of 0s and 1s encountered when traversing from the root node to a specific leaf node.",
       "difficulty": "intermediate",
       "type": "technique"
     },
     {
       "id": "c15",
-      "name": "Benefits of Huffman Coding",
-      "description": "Advantages such as reduced data size, faster data transmission, and efficient storage compared to fixed-length encoding schemes.",
-      "difficulty": "beginner",
+      "name": "Code Words",
+      "description": "The variable-length binary strings that uniquely represent each character, derived from its path in the Huffman tree.",
+      "difficulty": "intermediate",
       "type": "definition"
+    },
+    {
+      "id": "c16",
+      "name": "Number of bits required for a character",
+      "description": "The length of the specific Huffman codeword assigned to a character, which varies based on its frequency.",
+      "difficulty": "intermediate",
+      "type": "definition"
+    },
+    {
+      "id": "c17",
+      "name": "Total bits for message",
+      "description": "The sum of (frequency of each character multiplied by its codeword length), representing the total size of the compressed message.",
+      "difficulty": "intermediate",
+      "type": "calculation"
+    },
+    {
+      "id": "c18",
+      "name": "Data Compression",
+      "description": "The process of reducing the number of bits needed to represent data, typically by encoding frequent data items with shorter codes.",
+      "difficulty": "intermediate",
+      "type": "technique"
+    },
+    {
+      "id": "c19",
+      "name": "Message Size Calculation (Bytes)",
+      "description": "Converting the total number of bits in a message (compressed or uncompressed) into its equivalent size in bytes.",
+      "difficulty": "beginner",
+      "type": "calculation"
     }
   ],
   "prerequisites": [
     {
-      "source_id": "c2",
-      "target_id": "c1",
-      "rationale": "Huffman Coding is explicitly introduced as an application of the Greedy Algorithm.",
+      "source_id": "c1",
+      "target_id": "c2",
+      "rationale": "Understanding binary representation is fundamental to comprehend how bits are used.",
       "strength": "strong"
     },
     {
-      "source_id": "c1",
+      "source_id": "c2",
       "target_id": "c3",
-      "rationale": "Data Compression is the primary goal and application explained for Huffman Coding.",
+      "rationale": "The concept of a fixed number of bits per item is the basis for fixed-length encoding.",
+      "strength": "strong"
+    },
+    {
+      "source_id": "c4",
+      "target_id": "c5",
+      "rationale": "Characters are the entities for which frequencies are calculated.",
       "strength": "strong"
     },
     {
       "source_id": "c5",
-      "target_id": "c4",
-      "rationale": "Binary Representation is the fundamental concept underlying all digital Data Encoding for computers.",
+      "target_id": "c6",
+      "rationale": "Frequency data is required to identify the minimum frequency.",
       "strength": "strong"
     },
     {
       "source_id": "c6",
-      "target_id": "c1",
-      "rationale": "Fixed-Length Encoding is discussed as a less efficient alternative to highlight the advantages of Huffman Coding.",
-      "strength": "weak"
+      "target_id": "c7",
+      "rationale": "Identifying minimum frequency characters is the first step in selecting nodes for merging.",
+      "strength": "strong"
     },
     {
       "source_id": "c7",
       "target_id": "c8",
-      "rationale": "Character Frequencies are the essential input required to perform Huffman Tree Construction.",
+      "rationale": "Nodes must be selected before they can be merged.",
       "strength": "strong"
     },
     {
       "source_id": "c8",
       "target_id": "c9",
-      "rationale": "The Huffman Tree Construction algorithm directly results in the formation of the Huffman Tree data structure.",
+      "rationale": "After merging nodes, their combined frequency must be calculated.",
       "strength": "strong"
     },
     {
       "source_id": "c9",
       "target_id": "c10",
-      "rationale": "The Huffman Tree must be built before binary codes can be assigned to its edges to derive character codes.",
+      "rationale": "Repeated merging and frequency calculation of nodes leads to the construction of the Huffman Tree.",
       "strength": "strong"
     },
     {
       "source_id": "c10",
       "target_id": "c11",
-      "rationale": "Assigning binary codes to the edges of the Huffman Tree is the step that generates the actual Huffman Codes for characters.",
+      "rationale": "The Root Node is an inherent component formed during Huffman Tree Construction.",
       "strength": "strong"
     },
     {
-      "source_id": "c11",
+      "source_id": "c10",
       "target_id": "c12",
-      "rationale": "Understanding Huffman Codes is necessary to comprehend their inherent property of being Prefix Codes.",
+      "rationale": "Leaf Nodes are the characters placed at the terminal points of the Huffman Tree during its construction.",
       "strength": "strong"
     },
     {
-      "source_id": "c11",
+      "source_id": "c10",
       "target_id": "c13",
-      "rationale": "The individual Huffman Codes and their lengths are used to calculate the Total Bits for the Encoded Message.",
+      "rationale": "The structure of the Huffman Tree is essential for assigning binary codes to its branches.",
       "strength": "strong"
     },
     {
       "source_id": "c13",
       "target_id": "c14",
-      "rationale": "The Total Bits for the Encoded Message, along with total characters (derived from frequencies), are essential for calculating the Average Code Length.",
+      "rationale": "The assignment of 0s and 1s to branches defines the path to any leaf node.",
       "strength": "strong"
     },
     {
-      "source_id": "c7",
-      "target_id": "c14",
-      "rationale": "Character Frequencies provide the total number of characters, which is needed to calculate the Average Code Length.",
-      "strength": "strong"
-    },
-    {
-      "source_id": "c1",
+      "source_id": "c14",
       "target_id": "c15",
-      "rationale": "Understanding Huffman Coding itself is necessary to grasp its various Benefits.",
+      "rationale": "The sequence of bits along the path to a leaf node forms its unique codeword.",
+      "strength": "strong"
+    },
+    {
+      "source_id": "c15",
+      "target_id": "c16",
+      "rationale": "The length of a codeword directly determines the number of bits required for that character.",
+      "strength": "strong"
+    },
+    {
+      "source_id": "c5",
+      "target_id": "c17",
+      "rationale": "Character frequencies are needed, along with codeword lengths, to calculate the total bits for the message.",
+      "strength": "strong"
+    },
+    {
+      "source_id": "c16",
+      "target_id": "c17",
+      "rationale": "The variable number of bits per character is used to calculate the total compressed message size.",
+      "strength": "strong"
+    },
+    {
+      "source_id": "c3",
+      "target_id": "c18",
+      "rationale": "Data compression (Huffman coding) is often explained by contrasting its efficiency against fixed-length encoding.",
+      "strength": "strong"
+    },
+    {
+      "source_id": "c17",
+      "target_id": "c19",
+      "rationale": "The total number of bits must be known to convert the message size into bytes.",
       "strength": "strong"
     }
   ],
